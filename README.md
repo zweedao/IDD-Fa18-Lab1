@@ -32,6 +32,8 @@ We've copied the questions from the lab here. Answer them below!
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
 
 ### 2. Blink your LED
 
