@@ -46,15 +46,34 @@ void loop() {
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+Nothing actually. The "Blink" sample code works fine.
+
+<pre><code>
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);                       // wait for a second
+}
+</code></pre>
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+Change the values in the 2 `delay(100)` lines above. The higher the number, the slower the blinking rate.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+Probably a resistor to prevent short circuit.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+At `delay` = 10, I can't perceive the blinking. Gradually increase the `delay` to 15, I can perceive a very rapid blinking. So at `delay` = 10, it must have been blinking.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+[Blink code](/Blink_copy.ino)
 
 ### 2. Blink your LED
 
