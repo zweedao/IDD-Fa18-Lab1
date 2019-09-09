@@ -10,16 +10,36 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
-
+![Zwee's breadboard](/board_1.JPG)
 
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+2 red stripes & 1 black stripe.
 
+![Resistor](/resistor.jpg)
 
 **b. What do you have to do to light your LED?**
 
+- Connect LED to pin 9.
+
+![Light up the LED](/board_2.jpg)
+
+- Upload this code to Arduino to send 5V to my LED:
+
+<pre><code>
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(9, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(9, HIGH);   // turn the LED on (HIGH is the voltage level)
+}
+</code></pre>
+
+- Press the button
 
 ## Part C. Blink a LED using Arduino
 
