@@ -123,5 +123,5 @@ Since we don't really want to plug this Smart Plug to a 120V wall socket, we use
 
 **Make a video showing off your Frankenlight.**
 
-[Frankenlight video](/franken.mov)
+[Frankenlight video](/franken.MOV)
 
