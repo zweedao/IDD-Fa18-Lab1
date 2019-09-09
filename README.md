@@ -79,7 +79,7 @@ At `delay` = 10, I can't perceive the blinking. Gradually increase the `delay` t
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+![Blink video](/blink.mov)
 
 
 ## Part D. Manually fade an LED
