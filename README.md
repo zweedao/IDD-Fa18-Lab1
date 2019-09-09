@@ -91,6 +91,8 @@ I get the LED to glow to the maximum of the turning range. However when I try to
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 Just need to modify the first variable `led` = 11, to indicate pin 11.
 
+[Fade video](/fade.mov)
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 digitalWrite() will set the specified pin to one of two states - HIGH/LOW, which equate to 5v and 0v respectively.
 
@@ -103,7 +105,7 @@ We take apart a [smart plug](https://www.amazon.com/TP-Link-HS110-Monitoring-Req
 
 ![TP-link Smart plug](/smart_plug.jpg)
 
-![System diagram](/system_diagram.JPG)
+![System diagram](/system_diagram1.JPG)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 Yes, it's on the PCB. I think the "computer" basically takes in the instructions from user, then instruct  other components whether or not to let the 120V voltage flow through to the plugged-in device.
@@ -119,14 +121,13 @@ Information must have been stored in the "computer" chip, which must have integr
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+Since the LED can only work with 5V, the good point is to connect it anywhere in the internal circuit between `Computer Chip`, `Wifi Receiver`, `Wifi Transmitter`.
 
-
+Since we don't really want to plug this Smart Plug to a 120V wall socket, we use an Arduino to power the internal circuit with 5V and light up an internal LED.
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
+[Frankenlight video](/franken.mov)
 
-
-**Include any schematics or photos in your lab write-up.**
