@@ -1,6 +1,6 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by Zwee Dao**
+**A lab report by Zwee Dao (td373@cornell.edu)**
 
 ## Part A. Set Up a Breadboard
 
